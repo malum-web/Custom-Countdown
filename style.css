@@ -83,7 +83,7 @@ input {
     border-radius: 20px;
     background: #fff;
     outline: none;
-
+    font-family: Prata, sans-serif;
 }
 
 /* Button */
@@ -100,7 +100,9 @@ button {
     outline: none;
 }
 
-
+button:hover {
+    filter: brightness(120%);
+}
 
 /* Countdown */
 ul {
